@@ -3,3 +3,7 @@
   * [所需之物](getting-started/what-you-need.md)
   * [Hello World: 您的第一个 Pony 程序](getting-started/hello-world.md)
   * [Hello World: 她做了什么](getting-started/how-it-works.md)
+* [Chapter 2: 类型](types/index.md)
+  * [概览](types/at-a-glance.md)
+  * [类](types/classes.md)
+  * [原语](types/primitives.md)
