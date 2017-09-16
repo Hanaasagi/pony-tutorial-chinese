@@ -6,4 +6,4 @@
 * [Chapter 2: 类型](types/index.md)
   * [概览](types/at-a-glance.md)
   * [类](types/classes.md)
-  * [原语](types/primitives.md)
+  * [primitives](types/primitives.md)
