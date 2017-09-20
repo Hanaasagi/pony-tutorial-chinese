@@ -7,3 +7,4 @@
   * [概览](types/at-a-glance.md)
   * [类](types/classes.md)
   * [primitives](types/primitives.md)
+  * [actors](types/actors.md)
