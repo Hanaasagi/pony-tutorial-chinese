@@ -8,3 +8,4 @@
   * [类](types/classes.md)
   * [primitives](types/primitives.md)
   * [actors](types/actors.md)
+  * [traits and interfaces](types/traits-and-interfaces.md)
