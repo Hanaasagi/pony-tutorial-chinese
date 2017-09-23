@@ -9,3 +9,4 @@
   * [primitives](types/primitives.md)
   * [actors](types/actors.md)
   * [traits and interfaces](types/traits-and-interfaces.md)
+  * [类型别名](types/type-aliases.md)
