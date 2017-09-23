@@ -82,7 +82,7 @@ trait HasAddress
 type Person is (HasName & HasAge & HasAddress)
 ```
 
-这里有另一个新的概念：类型中有一个 `&` 符号。这和 __union__ 类型中的 `|` 相似：她表明这是一个 __intersection__ 类型。意味着 `HasName`， `HasAge` 和 `HasAddress` 三者共有的部分。
+这里有另一个新的概念：类型中有一个 `&` 符号。这和 __union__ 类型中的 `|` 相似：她表明这是一个 __intersection__ 类型。意味着同时具有 `HasName`， `HasAge` 和 `HasAddress` 三者。
 
 在这里 `type` 的使用和上面的枚举例子是相同的。它只是为类型提供一个名字，否则你要一遍一遍的去敲。
 
