@@ -8,7 +8,7 @@
 ### 项目进度
 
 - [x] Chapter 1: Getting Started with Pony
-- [ ] Chapter 2: Types
+- [x] Chapter 2: Types
 - [ ] Chapter 3: Expressions
 - [ ] Chapter 4: Capabilities
 - [ ] Chapter 5: Generics
