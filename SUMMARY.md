@@ -14,3 +14,4 @@
 * [Chapter 3: 表达式](expressions/index.md)
   * [字面量](expressions/literals.md)
   * [变量](expressions/variables.md)
+  * [中缀运算符](expressions/infix-ops.md)
