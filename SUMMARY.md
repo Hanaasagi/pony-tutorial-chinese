@@ -17,4 +17,5 @@
   * [中缀运算符](expressions/infix-ops.md)
   * [控制结构](expressions/control-structures.md)
   * [方法](expressions/methods.md)
+  * [异常](expressions/exceptions.md)
 
