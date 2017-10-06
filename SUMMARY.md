@@ -18,4 +18,5 @@
   * [控制结构](expressions/control-structures.md)
   * [方法](expressions/methods.md)
   * [异常](expressions/exceptions.md)
+  * [相等](expressions/equality.md)
 
