@@ -19,4 +19,5 @@
   * [方法](expressions/methods.md)
   * [异常](expressions/exceptions.md)
   * [相等](expressions/equality.md)
+  * [语法糖](expressions/sugar.md)
 
