@@ -20,4 +20,6 @@
   * [异常](expressions/exceptions.md)
   * [相等](expressions/equality.md)
   * [语法糖](expressions/sugar.md)
+  * [对象字面量](expressions/object-literals.md)
+  * [partial application](expressions/partial-application.md)
 
