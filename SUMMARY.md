@@ -22,4 +22,4 @@
   * [语法糖](expressions/sugar.md)
   * [对象字面量](expressions/object-literals.md)
   * [partial application](expressions/partial-application.md)
-
+* [术语对照](term.md)
