@@ -66,8 +66,6 @@ behaviours 也是异步执行的，同理也不能为 partial。
 
 ## Try-then blocks
 
-In addition to an `else` error handler, a `try` command can have a `then` block. This is executed after the rest of the `try`, whether or not an error is raised or handled. Expanding our example from earlier:
-
 除了错误处理 `else`，`try` 也可以有 `then`。这是在 `try` 的其余部分执行后执行，无论错误是否被抛出或者处理。根据先前的例子扩展一下：
 
 ```pony

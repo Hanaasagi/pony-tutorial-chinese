@@ -9,7 +9,7 @@
 
 - [x] Chapter 1: Getting Started with Pony
 - [x] Chapter 2: Types
-- [ ] Chapter 3: Expressions
+- [x] Chapter 3: Expressions
 - [ ] Chapter 4: Capabilities
 - [ ] Chapter 5: Generics
 - [ ] Chapter 6: Pattern Matching

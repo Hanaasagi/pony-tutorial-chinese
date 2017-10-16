@@ -24,7 +24,7 @@ Values!
 
 在大多数情况下 Pony 能够从上下文中推断字面量的具体类型(例如赋值给 field 或局部变量时或作为 方法/behaviour 的参数时)
 
-可以使用以下某个数值类型的构造函数来帮助编译器来决定字面量的具体类型：
+可以使用以下某个数值类型的构造函数来帮助编译器决定字面量的具体类型：
 
  * U8, U16, U32, U64, U128, USize, ULong
  * I8, I16, I32, I64, I128, ISize, ILong
@@ -36,7 +36,7 @@ let my_constructor_unsigned = U8(1)
 let my_constructor_float = F64(1.234)
 ```
 
-整数字面量有十进制，十六进制，二进制
+整数字面量可以是十进制，十六进制，二进制
 
 ```pony
 let my_decimal_int: I32 = 1024
@@ -44,7 +44,7 @@ let my_hexadecimal_int: I32 = 0x400
 let my_binary_int: I32 = 0b10000000000
 ```
 
-浮点字面量可以通过标准浮点数或者科学计数法来表示：
+浮点字面量可以是标准浮点数或者科学计数法：
 
 ```pony
 let my_double_precision_float: F64 = 0.009999999776482582092285156250
@@ -65,12 +65,12 @@ let newline: U32 = '\n'             // 10
 
 支持下面的转义序列：
 
-* `\x4F` hex escape sequence with 2 hex digits (up to 0xFF)
+* `\x4F` 通过两位十六进制数字(最大0xFF)所表示的十六进制编码序列
 * `\a`, `\b`, `\e`, `\f`, `\n`, `\r`, `\t`, `\v`, `\\`, `\0`, `\"`
 
 ### 多字节字符字面量(Multibyte Character literals)
 
-字符字面量可以包含多个字符。生成的整数值由一个接一个的字符所代表的单个字节组成，最后一个字符是最低有效字节：
+字符字面量可以包含多个字符。生成的整数值由一个接一个的字符所代表的单个字节所组成，最后一个是最低有效字节：
 
 ```pony
 let multiByte: U64 = 'ABCD' // 0x41424344
@@ -80,12 +80,12 @@ let multiByte: U64 = 'ABCD' // 0x41424344
 
 字符串字面量由双引号(`"`)或者三引号(`"""`)所包围。他们能包含任意字节或者转义序列：
 
-* `\u00FE` unicode escape sequence with 4 hex digits encoding one code point
-* `\u10FFFE` unicode escape sequence with 6 hex digits encoding one code point
-* `\x4F` hex escape sequence for unicode letters with 2 hex digits (up to 0xFF)
+* `\u00FE` 四个十六进制数字作为码元的 unicode 转义序列
+* `\u10FFFE` 六个十六进制数字作为码元的 unicode 转义序列
+* `\x4F` 通过两位十六进制数字(最大0xFF)所表示的十六进制编码序列
 * `\a`, `\b`, `\e`, `\f`, `\n`, `\r`, `\t`, `\v`, `\\`, `\0`, `\"`
 
-Each escape sequence encodes a full character, not byte.
+每个转义序列编码一个完整字符，而不是字节。
 
 ```pony
 
@@ -157,7 +157,7 @@ let my_literal_array =
   ]
 ```
 
-### Type inference
+### 类型接口(Type inference)
 
 如果数组的类型不确定，数组字面量的类型是 `Array[T] ref`， `T`(元素的类型)被推断为所有元素类型的 union：
 
@@ -182,12 +182,9 @@ let my_stringable_array: Array[Stringable] ref =
   ]
 ```
 
-这里 `my_stringable_array` 会被强制转换为 `Array[Stringable] ref`。这之所以能够工作是因为 `Stringable` 是一个 trait 同时被 `String` 和 `U64` 实现。
+这里 `my_stringable_array` 会被强制转换为 `Array[Stringable] ref`。这之所以能够工作是因为 `Stringable` 是一个同时被 `String` 和 `U64` 实现的 `trait`。
 
-It is also possible to return an array with a different [Reference Capability](../capabilities/index.md) than `ref` just by specifying it on the type:
-
-也可以通过在类型上指定，返回一个不同于 `ref` 的 [Reference Capability](../capabilities/index.md) 的数组。/*待定*/
-
+也可以通过在类型上指定，返回一个不同于 `ref` 的 [Reference Capability](../capabilities/index.md) 的数组。
 
 ```pony
 let my_immutable_array: Array[Stringable] val =
