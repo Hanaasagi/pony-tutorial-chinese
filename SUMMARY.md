@@ -24,4 +24,5 @@
   * [partial application](expressions/partial-application.md)
 * [Chapter 4: Capabilities](capabilities/index.md)
   * [object capabilities](capabilities/object-capabilities.md)
+  * [reference capabilities](capabilities/reference-capabilities.md)
 * [术语对照](term.md)
