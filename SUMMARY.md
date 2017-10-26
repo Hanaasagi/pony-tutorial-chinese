@@ -26,4 +26,5 @@
   * [object capabilities](capabilities/object-capabilities.md)
   * [reference capabilities](capabilities/reference-capabilities.md)
   * [guarantees](capabilities/guarantees.md)
+  * [Consume and Destructive Read](capabilities/consume-and-destructive-read.md)
 * [术语对照](term.md)
