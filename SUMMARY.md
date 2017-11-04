@@ -29,4 +29,5 @@
   * [Consume and Destructive Read](capabilities/consume-and-destructive-read.md)
   * [Recovering Capabilities](capabilities/recovering-capabilities.md)
   * [Aliasing](capabilities/aliasing.md)
+  * [Combining Capabilities](capabilities/combining-capabilities.md)
 * [术语对照](term.md)
