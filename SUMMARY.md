@@ -30,4 +30,5 @@
   * [Recovering Capabilities](capabilities/recovering-capabilities.md)
   * [Aliasing](capabilities/aliasing.md)
   * [Combining Capabilities](capabilities/combining-capabilities.md)
+  * [Passing and Sharing References](capabilities/passing-and-sharing.md)
 * [术语对照](term.md)
