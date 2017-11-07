@@ -30,5 +30,6 @@
   * [Recovering Capabilities](capabilities/recovering-capabilities.md)
   * [Aliasing](capabilities/aliasing.md)
   * [Combining Capabilities](capabilities/combining-capabilities.md)
-  * [Passing and Sharing References](capabilities/passing-and-sharing.md)
+  * [Passing and Sharing](capabilities/passing-and-sharing.md)
+  * [Capability Subtyping](capabilities/capability-subtyping.md)
 * [术语对照](term.md)
