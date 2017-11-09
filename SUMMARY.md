@@ -32,4 +32,5 @@
   * [Combining Capabilities](capabilities/combining-capabilities.md)
   * [Passing and Sharing](capabilities/passing-and-sharing.md)
   * [Capability Subtyping](capabilities/capability-subtyping.md)
+  * [Arrow Types](capabilities/arrow-types.md)
 * [术语对照](term.md)
