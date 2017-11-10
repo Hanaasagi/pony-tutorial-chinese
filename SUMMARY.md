@@ -33,4 +33,5 @@
   * [Passing and Sharing](capabilities/passing-and-sharing.md)
   * [Capability Subtyping](capabilities/capability-subtyping.md)
   * [Arrow Types](capabilities/arrow-types.md)
+  * [Trust Boundary](capabilities/trust-boundary.md)
 * [术语对照](term.md)
