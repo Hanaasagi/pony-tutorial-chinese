@@ -34,4 +34,5 @@
   * [Capability Subtyping](capabilities/capability-subtyping.md)
   * [Arrow Types](capabilities/arrow-types.md)
   * [Trust Boundary](capabilities/trust-boundary.md)
+* [Chapter 5: Generics](generics/index.md)
 * [术语对照](term.md)
