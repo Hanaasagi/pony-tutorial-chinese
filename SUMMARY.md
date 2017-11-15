@@ -35,4 +35,5 @@
   * [Arrow Types](capabilities/arrow-types.md)
   * [Trust Boundary](capabilities/trust-boundary.md)
 * [Chapter 5: Generics](generics/index.md)
+  * [Generics and Reference Capabilities](generics/generics-and-reference-capabilities.md)
 * [术语对照](term.md)
