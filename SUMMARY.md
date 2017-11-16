@@ -36,4 +36,5 @@
   * [Trust Boundary](capabilities/trust-boundary.md)
 * [Chapter 5: Generics](generics/index.md)
   * [Generics and Reference Capabilities](generics/generics-and-reference-capabilities.md)
+  * [Constraints](generics/generic-constraints.md)
 * [术语对照](term.md)
