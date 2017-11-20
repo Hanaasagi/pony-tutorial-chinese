@@ -11,7 +11,7 @@
 - [x] Chapter 2: Types
 - [x] Chapter 3: Expressions
 - [x] Chapter 4: Capabilities
-- [ ] Chapter 5: Generics
+- [x] Chapter 5: Generics
 - [ ] Chapter 6: Pattern Matching
 - [ ] Chapter 7: Code Sharing
 - [ ] Chapter 8: Packages
