@@ -37,4 +37,5 @@
 * [Chapter 5: Generics](generics/index.md)
   * [Generics and Reference Capabilities](generics/generics-and-reference-capabilities.md)
   * [Constraints](generics/generic-constraints.md)
+* [Chapter 6: 模式匹配](pattern-matching/index.md)
 * [术语对照](term.md)
