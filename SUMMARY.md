@@ -38,4 +38,5 @@
   * [Generics and Reference Capabilities](generics/generics-and-reference-capabilities.md)
   * [Constraints](generics/generic-constraints.md)
 * [Chapter 6: 模式匹配](pattern-matching/index.md)
+  * [Match Expressions](pattern-matching/match.md)
 * [术语对照](term.md)
