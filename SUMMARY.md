@@ -39,4 +39,5 @@
   * [Constraints](generics/generic-constraints.md)
 * [Chapter 6: 模式匹配](pattern-matching/index.md)
   * [Match Expressions](pattern-matching/match.md)
+  * [As Operator](pattern-matching/as.md)
 * [术语对照](term.md)
