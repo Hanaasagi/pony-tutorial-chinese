@@ -40,4 +40,5 @@
 * [Chapter 6: 模式匹配](pattern-matching/index.md)
   * [Match Expressions](pattern-matching/match.md)
   * [As Operator](pattern-matching/as.md)
+  * [Case Functions](pattern-matching/case-functions.md)
 * [术语对照](term.md)
