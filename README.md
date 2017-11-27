@@ -12,7 +12,7 @@
 - [x] Chapter 3: Expressions
 - [x] Chapter 4: Capabilities
 - [x] Chapter 5: Generics
-- [ ] Chapter 6: Pattern Matching
+- [x] Chapter 6: Pattern Matching
 - [ ] Chapter 7: Code Sharing
 - [ ] Chapter 8: Packages
 - [ ] Chapter 9: Testing
