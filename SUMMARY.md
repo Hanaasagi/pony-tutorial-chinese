@@ -41,4 +41,6 @@
   * [Match Expressions](pattern-matching/match.md)
   * [As Operator](pattern-matching/as.md)
   * [Case Functions](pattern-matching/case-functions.md)
+* [Chapter 8: Packages](packages/index.md)
+  * [Package System](packages/package-system.md)
 * [术语对照](term.md)
