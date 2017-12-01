@@ -43,4 +43,5 @@
   * [Case Functions](pattern-matching/case-functions.md)
 * [Chapter 8: Packages](packages/index.md)
   * [Package System](packages/package-system.md)
+  * [Use Statement](packages/use-statement.md)
 * [术语对照](term.md)
