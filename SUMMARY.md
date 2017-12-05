@@ -45,4 +45,5 @@
   * [Package System](packages/package-system.md)
   * [Use Statement](packages/use-statement.md)
   * [标准库](packages/standard-library.md)
+* [Chapter 9: Testing](packages/index.md)
 * [术语对照](term.md)
