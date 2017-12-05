@@ -14,7 +14,7 @@
 - [x] Chapter 5: Generics
 - [x] Chapter 6: Pattern Matching
 - [ ] Chapter 7: Code Sharing
-- [ ] Chapter 8: Packages
+- [x] Chapter 8: Packages
 - [ ] Chapter 9: Testing
 - [ ] Chapter 10: C FFI
 - [ ] Chapter 11: Gotchas!
