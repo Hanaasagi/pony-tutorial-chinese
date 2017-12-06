@@ -15,7 +15,7 @@
 - [x] Chapter 6: Pattern Matching
 - [ ] Chapter 7: Code Sharing
 - [x] Chapter 8: Packages
-- [ ] Chapter 9: Testing
+- [x] Chapter 9: Testing
 - [ ] Chapter 10: C FFI
 - [ ] Chapter 11: Gotchas!
 - [ ] Chapter 12: Where Next?
