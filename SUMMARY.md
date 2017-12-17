@@ -47,4 +47,5 @@
   * [标准库](packages/standard-library.md)
 * [Chapter 9: Testing](testing/index.md)
   * [Pony Test](testing/ponytest.md)
+* [Chapter 10: C FFI](c-ffi/index.md)
 * [术语对照](term.md)
