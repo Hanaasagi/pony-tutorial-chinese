@@ -48,4 +48,6 @@
 * [Chapter 9: Testing](testing/index.md)
   * [Pony Test](testing/ponytest.md)
 * [Chapter 10: C FFI](c-ffi/index.md)
+  * [Calling C from Pony](c-ffi/calling-c.md)
+  * [Linking to C libraries](c-ffi/linking-c.md)
 * [术语对照](term.md)
