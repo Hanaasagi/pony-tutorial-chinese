@@ -50,4 +50,5 @@
 * [Chapter 10: C FFI](c-ffi/index.md)
   * [Calling C from Pony](c-ffi/calling-c.md)
   * [Linking to C libraries](c-ffi/linking-c.md)
+  * [C ABI](c-ffi/c-abi.md)
 * [术语对照](term.md)
