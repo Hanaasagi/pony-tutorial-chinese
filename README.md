@@ -16,7 +16,7 @@
 - [ ] Chapter 7: Code Sharing
 - [x] Chapter 8: Packages
 - [x] Chapter 9: Testing
-- [ ] Chapter 10: C FFI
+- [x] Chapter 10: C FFI
 - [ ] Chapter 11: Gotchas!
 - [ ] Chapter 12: Where Next?
 - [ ] Appendices
